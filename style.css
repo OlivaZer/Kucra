@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    /*background:linear-gradient(to right,rgb(139,195,245) ,#1294b8);*/
+    
+}
+
+.container{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    
+}
+
+#top_site{
+    background-image: radial-gradient(circle ,rgb(139,195,245) ,#1294b8);
+    padding-bottom:  150px;
+}
+
+.intro{
+    
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.intro p {
+    color: white;
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.reseaux{
+    color: white;
+    display: flex;
+    flex-direction: row ;
+    gap: 20px;
+}
+
+ul{
+    
+    display: flex;
+    flex-direction: row;
+    list-style-type:none;
+    gap: 40px;
+    text-decoration-line: none;    
+}
+
+ul a {
+    color: white;
+    list-style-type:none;
+    text-decoration-line: none;  
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin : 0 0 0 150px;
+}
+
+.left h1{
+    font-size: 5em;
+    
+
+    
+}
+
+.left p {
+    font-size: 1.5em;
+    text-align: justify;
+    margin-right: 220px;
+    margin-top: 20px;
+    
+    
+    
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+}
+
+.right img {
+    width: 800px;
+    margin-right: 150px;
+    
+}
+
+.corp{
+    
+    display: flex;
+    justify-content:  space-evenly;
+    margin-top: 100px;
+
+    
+}
+
+.mail{
+    
+    position: absolute;
+    
+    border-radius: 100px;
+    width: 30vw;
+    height: 5vh;
+    padding-left: 25px;
+    margin-top: 50px;
+    
+    
+
+}
+
+.sinscrire{
+    border: none;
+    
+    position: relative;
+    background-color: 	rgb(65,148,185) ;
+    border-radius: 100px;
+    height: 3.5vh;
+    width: 5.5vw;
+    margin-left: 450px;
+    margin-top: 57px;
+
+    
+    
+}
+
+
+
+.features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features h2{
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.features p {
+    margin-top: 20px;
+    color: rgb(161, 161, 161);
+    font-size: 1.5em;
+
+}
+/*************************************************Allblock*****************************/
+.allblock{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    gap: 24px;
+    
+}
+
+
+.allblock h2 {
+    text-align: center;   
+    margin-top: 20px;
+    color: white;
+}
+
+.allblock p{
+    color: white;
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.allblock :hover{
+
+    transform:  translateY(-5px);
+    box-shadow: rgb(214, 214, 214) 0px 10px 40px 0px;
+}
+
+
+
+/*************************************Block-1************************************************/
+.block1{
+
+    background-image: radial-gradient(circle ,rgb(139,195,245) ,#1294b8);
+    width: 400px;
+    height: 400px;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+       
+}
+
+.block1 img{
+    width: 70px;
+    display: flex;
+       
+}
+
+
+
+
+/*********************************Block-2***************************************/
+
+.block2{
+    background-image: radial-gradient(circle ,rgb(139,195,245) ,#1294b8);
+    width: 400px;
+    height: 400px;
+    border-radius: 3%;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    
+      
+
+}
+
+
+
+.block2 img{
+    width: 70px;
+    
+
+}
+
+/********************************************Block-3****************************************/
+
+.block3{
+    background-image: radial-gradient(circle ,rgb(139,195,245) ,#1294b8);
+    width: 400px;
+    height: 400px;
+    border-radius: 3%;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    transition: 0.4s;
+    
+
+}
+
+.block3 img{
+    width: 70px;
+    color: white;
+    
+    
+}
+
+.text_under_blocks {
+    display: flex;
+    flex-direction: column;
+    
+    
+    width: 100%;
+    height: 500px;
+    background-color: rgb(239, 236, 236);
+    
+}
+/************************************************Text_under_block****************************/
+.block_text{
+    text-align: center;
+    font-size: 1.4em;
+    margin-top: 110px;
+    
+
+
+}
+
+.block_text p {
+    color: rgb(161, 161, 161);
+    margin-top: 24px;
+}
+
+
+/******************************************Stats*********************************/
+
+#stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.stats_all h2{
+    font-size: 1.9em;
+
+}
+
+.stats_all p{
+    color: rgb(161, 161, 161);
+
+}
+
+
+
+
+
+
+
+
+
+
+/**********************************************************Rond_membres********************************************/
+
+#team_block{
+
+    margin-bottom: 200px;
+}
+
+#members_top{
+
+    text-align: center;
+    margin-top: 100px;
+}
+
+#members_top h2{
+
+    font-size: 2.5em;
+    
+}
+
+#members_top p {
+    color: rgb(161, 161, 161);
+    font-size: 1.2em;
+    
+
+}
+
+
+#membres{
+    
+
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+
+}
+
+#membres img{
+    border-radius: 50%;
+    width: 200px;
+    filter: grayscale(1);
+    transition: 0.4s;
+    
+}
+
+#membres img:hover{
+        -ms-transform: scale(1.5); /* IE 9 */
+        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        transform: scale(1.5);
+        
+
+}
+
+
+
+.membre1{
+    border-radius: 50%;
+    background-color: red;
+    
+    
+
+}
+
+
+.membre2{
+    border-radius: 50%;
+    background-color: red;
+
+}
+
+
+.membre3{
+    border-radius: 50%;
+    background-color: red;
+
+}
+
+.membre4{
+    border-radius: 50%;
+    background-color: red;
+    
+
+}
+
+/***********************************Clients*******************************/
+
+#Block_clients{
+    background-color: rgb(239, 236, 236);
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+    
+ 
+    
+}
+
+
+.titre_clients {
+    text-align: center;
+    
+    
+
+
+}
+
+.titre_clients h2{
+    font-size: 2.5em;
+    
+    
+    
+    
+    
+}
+
+.titre_clients p{
+    color: rgb(161, 161, 161);
+    font-size: 1.2em;
+    margin-top: 50px;
+
+}
+
+/*****************************LOGO-CLIENTS********************************/
+
+#clients{
+    
+
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    gap: 8%;
+    
+}
+
+#clients img{
+
+    width: 130px;
+}
+
+/*************************************Get-started*****************************************/
+
+.wallpaper img{
+    width: 100%;
+    
+}

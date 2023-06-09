@@ -448,13 +448,13 @@ border-radius: 50%;
 
 
 #stats i{
-    position: absolute;
+    
 
     margin-top: 150px;
 }
 
 #stats img{
-    position: relative;
+    
 }
 
 .stats_all{
@@ -852,6 +852,22 @@ border-radius: 50%;
     margin-top: 50px;
 
 }
+
+.logo_clients {
+    
+    opacity: calc(50%);
+    transition: 1s;
+   
+    
+}
+
+.logo_clients:hover{
+    
+    opacity: calc(100%);
+
+}
+
+
 
 /*****************************LOGO-CLIENTS********************************/
 

@@ -12,6 +12,7 @@ body{
 
 .container{
     font-family: 'Poppins', sans-serif;
+    
 }
 
 header{
@@ -907,17 +908,21 @@ border-radius: 50%;
 
 
 
-/**************************************************** Section Pricing ****************************************************/
+/**************************************************** Section Pricing ( Bottom) ****************************************************/
 
 
-#all_pricing{
+#top_pricing{
 
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
     
-    
+}
+
+.pricing_left{
+    width: 40%;
+
 }
 
 
@@ -929,14 +934,148 @@ flex-direction: column ;
 
 }
 
-.stats_pricing{
+.text_pricing p {
+    margin-top: 40px;
+    margin-right: 250px;
+    color: rgb(161, 161, 161);
+    
+}
 
+.text_pricing h2 {
+    margin-top: 40px;
+}
+
+.all_stats_pricing{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    
+    
+    
+}
+
+.stats_pricing1{
     display: flex;
     flex-direction: row;
+    gap: 100px;
+    font-size: 1.5em;
     
+}
 
+.stats_pricing2{
+    display: flex;
+    flex-direction: row;
+    gap: 65px;
+    color: rgb(161, 161, 161);
     
+}
+
+.button_pricing{
+    margin-top: 40px;
+    background-color: rgb(63,142,253);
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+/******Pricing Right****/
+
+.pricing_right{
+
+    width: 40%;
+}
+
+.pricing_right img{
+
+    width: 600px;
+}
+
+
+/**********************************Bottom pricing*************/
+
+
+#bottom_pricing{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(239, 236, 236);
+
+}
+
+.text_pricing_bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+    
+}
+
+/***************************************************Pricing Offres****************************/
+
+.text_pricing_bottom h2{
+    margin-top: 20px;
+    font-size: 2.5em;
+
+}
+
+.text_pricing_bottom p{
+    margin-right: 650px;
+    margin-left: 650px;
+    margin-bottom: 100px;
+    text-align: center;
+    color:  rgb(161, 161, 161); ;
 }
 
 
 
+.pricing_offre{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+     
+}
+
+.carte_offre1{
+    width: 330px;
+    height: 400px;
+    background-color: white;
+    border-radius: 8px;
+
+}
+
+.titre_carte  {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1em;
+    
+}
+
+.top_offre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.texte_offre{
+    display: flex;
+}
+
+
+
+
+.carte_offre2{
+    width: 330px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.carte_offre3{
+    width: 330px;
+    background-color: white;
+    border-radius: 8px;
+}

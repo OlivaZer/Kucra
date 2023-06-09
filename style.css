@@ -907,6 +907,36 @@ border-radius: 50%;
 
 
 
+/**************************************************** Section Pricing ****************************************************/
+
+
+#all_pricing{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    
+    
+}
+
+
+.text_pricing{
+
+display: flex;
+flex-direction: column ;
+
+
+}
+
+.stats_pricing{
+
+    display: flex;
+    flex-direction: row;
+    
+
+    
+}
 
 
 

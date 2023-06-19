@@ -52,6 +52,12 @@ ul a {
     color: white;
     list-style-type:none;
     text-decoration-line: none;  
+    transition: 0.5s;
+    
+}
+
+ul a:hover{
+    color: rgb(198, 198, 198);
 }
 
 /****************************************   nav   ***************************/
@@ -113,6 +119,7 @@ ul a {
     margin-left: 465px;
     margin-top: 57px;
     color: white; 
+    
 }
 
 .features{
@@ -377,6 +384,7 @@ border-radius: 50%;
     color: white;
     margin-bottom: 1%;
     font-size: 2em;
+    text-align: center;
 }
 
 .wallpaper p {
@@ -706,7 +714,7 @@ border-radius: 50%;
 
 #bottom_pricing{
     width: 100%;
-    height: 1000px;
+   
     background-color: rgb(239, 236, 236);
 
 }
@@ -738,6 +746,7 @@ border-radius: 50%;
     flex-wrap: wrap;
     gap: 50px;  
     width: 100%;
+    padding-bottom: 50px;
 }
 
 .carte_offre{
@@ -833,6 +842,31 @@ border-radius: 50%;
     justify-content: center; 
 }
 
+.carte_offre_centre{
+    width: 330px;
+    height: 400px;
+    background-color: white;
+    border-radius: 8px;
+    position: relative;
+
+}
+
+.promo p{
+    
+    position: absolute;
+
+    top: 0;
+    right: 0;
+    background-color: rgb(63,142,253);
+    width: 50px;
+    height: 50px;
+    border-radius: 0% 8% 0% 36%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 /******************************Footer ********************/
 footer {
     display: flex;
@@ -904,11 +938,22 @@ text-decoration : none;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 0px;
+        margin-right: 0px;
+        
     }
 
     .left h1{
 
         font-size: 1.5em;
+        text-align: center;
+    }
+
+    .left p{
+        margin-right: 0px;
+        font-size: 1em;
+        margin-left: 50px;
+        margin-right: 50px;
         text-align: center;
     }
 
@@ -922,8 +967,34 @@ text-decoration : none;
         padding-bottom: 3%;
     }
 
+    .mail{
+        position: absolute;
+        border-radius: 100px;
+        width: 30vw;
+        height: 5vh;
+        padding-left: 25px;
+        margin-top: 50px;
+        border: none;
+        text-decoration: none;
+    }
     
-    
+    .sinscrire{
+        border: none; 
+        position: relative;
+        background-image: radial-gradient(rgb(139,195,245) ,#1294b8);
+        border-radius: 100px;
+        height: 3.5vh;
+        width: 5.5vw;
+        margin-left: 0px;
+        margin-top: 57px;
+        color: white; 
+        
+    }
+
+    .contact{
+
+    }
+
     
     .block{
         width: 300px;
@@ -961,15 +1032,58 @@ text-decoration : none;
         padding-left: 5%;
         
     }
+
+    #stats{
+        gap: 50px;
+    }
+
+
+    .stats_all {
+        margin-bottom: 14px;
+    }
     
-    .blocks_glog{
+    #clients{
+        margin-top: 45px;
+    margin-bottom: 45px;
+    }
+
+
+    .titre_clients p{
+
+        margin-left: 20px;
+        margin-right: 20px;
         
-    
     }
-    
-    #big_block_blog{
-    
+
+    .block_blog{
+        width: 344px;
+
     }
+
+    .text_blog h2{
+        padding-left: 26px;
+    }
+
+    .text_blog p {
+        padding-left: 26px;
+    }
+
+    .text_blog a {
+        padding-left: 26px;
+    }
+
+    .all_blocks {
+        gap: 56px;
+    }
+
+   
+   .div_button_pricing{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+   }
     
     
     #top_pricing{
@@ -994,10 +1108,39 @@ text-decoration : none;
         padding-left: 1%;
     }
     
-    .pricing_right{
+    .pricing_offre{
+        padding-bottom: 50px;
         
         
     }
+
+
+
+
+    .text_pricing_bottom p{
+       
+        margin-bottom: 100px;
+        text-align: center;
+        color:  rgb(161, 161, 161); ;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+
+    .text_pricing h2{
+        
+        padding-right: 3%;
+        padding-left: 3%;
+        text-align: center;
+    }
+
+
+    .text_pricing p {
+        text-align: center;
+    }
+
+
+
     
     .all_stats_pracing{
         display: flex;
@@ -1014,6 +1157,19 @@ text-decoration : none;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+    }
+
+    footer{
+        
+    }
+    .reseaux_footer{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .infos_footer{
+        gap: 5px;
+        margin-bottom: 10px;
     }
     
     }

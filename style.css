@@ -864,6 +864,8 @@ border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
+    text-align: center;
 
 }
 
@@ -1034,7 +1036,10 @@ text-decoration : none;
     }
 
     #stats{
-        gap: 50px;
+        gap: 90px;
+
+        padding-top: 25%;
+
     }
 
 
@@ -1094,6 +1099,8 @@ text-decoration : none;
     
     .pricing_left{
         width: 100%;
+        margin-top: 60px;
+        margin-bottom: 60px;
     }
     
     .pricing_left p{
@@ -1139,6 +1146,23 @@ text-decoration : none;
         text-align: center;
     }
 
+    .stats_pricing1{
+
+        display: flex;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        gap: 70px;
+        font-size: 1.5em;
+    
+    }
+
+    .stats_pricing2{
+        
+        padding-left: 103px;
+        gap: 35px;
+    }
+
 
 
     
@@ -1157,6 +1181,13 @@ text-decoration : none;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        gap: 64px;
+        margin-top: 30px;
+    }
+
+    .promo p{
+
+        text-align: center;
     }
 
     footer{

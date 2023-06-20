@@ -23,18 +23,29 @@
             <section id="top_site">
                 <header class="intro"> 
                     <p>Kucra</p>
-                    <nav> 
-                        <ul>
+                    <a href="#" class="logo_burger"></a>
+                    <nav class="ul_nav"> 
+                        <ul >
                             <a href="#"><li>HOME</li></a>
-                            <a href="#"><li>FEATURES</li></a>
-                            <a href="#"><li>CLIENT</li></a>
-                            <a href="#"><li>PRICING</li></a>
+                            <a href="#features"><li>FEATURES</li></a>
+                            <a href="#Block_clients"><li>CLIENT</li></a>
+                            <a href="#bottom_pricing"><li>PRICING</li></a>
                             <a href="#"><li>FAQ</li></a>
                             <a href="#"><li>ABOUT</li></a>
-                            <a href="#"><li>BLOG</li></a>
+                            <a href="#all_blocks"><li>BLOG</li></a>
                             <a href="#"><li>CONTACT</li></a>
                         </ul>
-                    </nav>    
+                    </nav>
+                    <img src="img/burger-bar.png" alt="menu_hamburger" class="menu_hamburger">
+                    <script>
+                        const menuHamburger = document.querySelector(".menu_hamburger")
+                        const navLinks = document.querySelector("nav ul")
+                 
+                        menuHamburger.addEventListener('click',()=>{
+                        navLinks.classList.toggle('mobile-menu')
+                        })
+                </script>
+                    
                     <div class="reseaux">
                         <a class="reseaux" href="http://facebook.com"><ion-icon class="icone facebook" name="logo-facebook"></ion-icon></a>
                         <a class="reseaux" href="http://twitter.com"><ion-icon class="icone twitter" name="logo-twitter"></ion-icon></a>
@@ -66,7 +77,7 @@
                 </div>
         </section>
         
-        <section class="features">
+        <section id="features">
             <h2>Products Features </h2>
             <p>It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
         </section>
@@ -518,10 +529,10 @@
         </section>
         <footer>
             <div class="reseaux_footer">    
-                <a href="/"> <i class="fa-brands fa-facebook" style="color: #26272b;"></i></a>
-                <a href=""> <i class="fa-brands fa-twitter" style="color: #26272b;"></i> </a>
-                <a href=""> <i class="fa-brands fa-linkedin" style="color: #26272b;"></i> </a>
-                <a href=""> <i class="fa-brands fa-square-google-plus" style="color: #26272b;"></i> </a>     
+                <a href="#"> <i class="fa-brands fa-facebook" style="color: #26272b;"></i></a>
+                <a href="#"> <i class="fa-brands fa-twitter" style="color: #26272b;"></i> </a>
+                <a href="#"> <i class="fa-brands fa-linkedin" style="color: #26272b;"></i> </a>
+                <a href="#"> <i class="fa-brands fa-square-google-plus" style="color: #26272b;"></i> </a>     
             </div>
             <div class="infos_footer">
                 <div>
